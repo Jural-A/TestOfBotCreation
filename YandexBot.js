@@ -14,7 +14,7 @@ let yandexInput = document.getElementsByName("text")[0];
 let button = document.getElementsByClassName("button_theme_search")[0];
 
 if(button != undefined){ // Проверяем, что мы на главной странице
-    yandexInput.value = "p.o.s.t."; // Пишем фразу в поисковую строку
+    yandexInput.value = "официальные дилеры yanmar"; // Пишем фразу в поисковую строку
     setTimeout(function(){
         button.click();// Клик по кнопке поиска
     }, 1000);
